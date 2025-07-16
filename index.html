@@ -3,10 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <link rel="stylesheet" href="style.css" />
+  <title>WeatherApp - Assig 1 - metodos agiles</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <div class="app-container">
+    <h1>WeatherApp</h1>
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="Ej. Guatemala City" />
+      <button onclick="getWeather()">Buscar</button>
+    </div>
+    <div id="weatherCard" class="weather-card hidden"></div>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
