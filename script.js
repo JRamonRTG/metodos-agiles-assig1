@@ -1,3 +1,4 @@
+
 const apiKey = '2bfd3211df23f2d600ef10c05d08d9af';
 
 async function getWeather() {
@@ -39,3 +40,4 @@ async function getWeather() {
     card.classList.remove('hidden');
   }
 }
+
